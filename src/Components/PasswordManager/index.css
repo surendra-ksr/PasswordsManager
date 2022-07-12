@@ -1,0 +1,213 @@
+.mainDiv {
+  background-image: linear-gradient(to Bottom, #9ba9eb, #c3caea);
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.mainLogo {
+  width: 200px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.topDiv {
+  background-color: #5763a5;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 85vw;
+  margin-bottom: 15px;
+}
+
+.topLeftDiv {
+  background-color: #454f84;
+  border-radius: 8px;
+  padding: 15px;
+  color: #ffffff;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.topRightImg {
+  width: 35vw;
+}
+.topH1 {
+  font-weight: 500;
+  color: #f8fafc;
+  font-size: 25px;
+}
+.inputDiv {
+  background-color: #b6c3ca;
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.icon {
+  width: 25px;
+  margin: 10px;
+}
+.input {
+  background-color: transparent;
+  border-width: 0 0 0 1px;
+  border-color: #64748b;
+  padding: 10px;
+  margin-right: 0;
+  outline: none;
+  width: 80vw;
+}
+::placeholder {
+  color: #64748b;
+  font-weight: 500;
+  font-size: 15px;
+}
+.formDiv {
+  width: 36vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.addButton {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-weight: 500;
+  border-width: 0;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  margin-left: auto;
+  align-self: ;
+}
+.botDiv {
+  background-color: #5763a5;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 85vw;
+  margin-bottom: 15px;
+}
+.botTopDiv {
+  border-radius: 8px;
+  padding: 15px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.botLeftDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.botH1 {
+  font-size: 20px;
+  color: #f8fafc;
+}
+.countP {
+  font-size: 15px;
+  margin-left: 8px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 3px;
+  background-color: #5763a5;
+  margin-right: 10px;
+}
+.noP {
+  font-weight: bold;
+  color: #ffffff;
+}
+.searchDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #b6c3ca;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-top: 10px;
+}
+.searchImg {
+  width: 18px;
+  height: 22px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.search {
+  width: 200px;
+  padding: 5px;
+  outline: none;
+  background-color: transparent;
+  border-width: 0 0 0 1px;
+}
+hr {
+  width: 78vw;
+}
+.checkBoxDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 30px;
+  width: 180px;
+  margin-left: auto;
+}
+.checkInput {
+  margin-right: 10px;
+}
+.checkLabel {
+  color: #ffffff;
+  font-size: 15px;
+}
+.botImgDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ulDiv {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .topLeftDiv {
+    order: 1;
+    width: 70vw;
+  }
+  .formDiv {
+    width: 60vw;
+  }
+  .topDiv {
+    flex-direction: column;
+  }
+  .topRightImg {
+    width: 50vw;
+    margin-bottom: 20px;
+  }
+  .searchDiv {
+    width: 170px;
+  }
+  .search {
+    width: 148px;
+  }
+  .searchImg {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .botH1 {
+    font-size: 18px;
+  }
+}

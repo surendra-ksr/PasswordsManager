@@ -1,0 +1,63 @@
+.yellow {
+  background-color: #f59e0b;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.brown {
+  background-color: #b91c1c;
+}
+
+.blue {
+  background-color: #0ea5e9;
+}
+.initial {
+  padding: 10px;
+  display: inline;
+  border-radius: 50%;
+  color: #ffffff;
+  font-weight: bold;
+}
+.liItem {
+  border: 1px solid #b6c3ca;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+  min-width: 280px;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.itemDiv {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+.starsImg {
+  width: 140px;
+  margin-top: 2px;
+}
+.website {
+  color: #b6c3ca;
+  margin: 5px;
+}
+.delBtn {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  margin-left: auto;
+  cursor: pointer;
+}
+.delImg {
+  width: 20px;
+  height: 20px;
+}
